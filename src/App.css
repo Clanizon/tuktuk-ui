@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  justify-self: start;
+  align-self: start;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #ff5722;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.step-val {
+  padding: 6px 6px;
+  font-weight: bold;
+}
+.step-name {
+  padding: 6px 6px 6px 6px;
+  margin: 0.5rem;
+  font-size: large;
+}
+.cost {
+  padding: 6px 6px;
+}
+.step-btns {
+  padding: 8px 8px;
+}
+.results {
+}
+.p-5 {
+  padding: 5px;
+  font-size: large;
+}
+.total {
+  font-size: large;
+}
+.table-result {
+  margin: auto !important;
+  text-align: justify;
+  min-width: 20%;
+}
+.total-val {
+  font-size: x-large;
+  color: #ff5722;
+}
+#bill {
+  border: 1px solid rgba(224, 224, 224, 1);
+  width: fit-content;
+  display: grid;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 6px !important;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.tab {
+  display: grid;
+  width: max-content;
+  margin: auto;
+}
+.report {
+  width: fit-content;
+  display: grid;
+  margin: auto;
+  box-shadow: 6px !important;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
